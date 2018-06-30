@@ -8,14 +8,13 @@
 ## Slogan:
 First Forever - 最初即永恒
 ## pseudocode:
-"""
-1. input page: input your message/image
+  1. input page: input your message/image
 
-content_type: "text"
-content_body: "a message"
-content_body: baseb64_encode(File.new(content_body))
+  content_type: "text"
+  content_body: "a message"
+  content_body: baseb64_encode(File.new(content_body))
 
-content_json = {
+  content_json = {
   content_type: 'text',
   content_body: 'base64(content)',
 }
