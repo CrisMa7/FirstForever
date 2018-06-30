@@ -8,44 +8,45 @@
 ## Slogan:
 First Forever - 最初即永恒
 ## pseudocode:
-  1. input page: input your message/image
 
-  content_type: "text"
-  content_body: "a message"
-  content_body: baseb64_encode(File.new(content_body))
+	1. input page: input your message/image
 
-  content_json = {
-  content_type: 'text',
-  content_body: 'base64(content)',
-}
+	content_type: "text"
+	content_body: "a message"
+	content_body: baseb64_encode(File.new(content_body))
 
-
-content_hex = hex(json.to_string()) # => "09776acdf..."
+  	content_json = {
+  	  content_type: 'text',
+  	  content_body: 'base64(content)',
+	}
 
 
-2. return a tx_id
-
-3. show page: view for tx_id
-
-for example: 0x2d6a7b0f6adeff38423d4c62cd8b6ccb708ddad85da5d3d06756ad4d8a04a6a2
-
-https://etherscan.io/tx/0x2d6a7b0f6adeff38423d4c62cd8b6ccb708ddad85da5d3d06756ad4d8a04a6a2
+	content_hex = hex(json.to_string()) # => "09776acdf..."
 
 
-content_json = "09776acdf..."
+	2. return a tx_id
 
-{
-  content_type: 'text',
-  content_body: 'VFppZgAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAQAAAAAgAAAAjIXAGAyPoncMnVDoDK21rwHro2AB9pf3AgfmiAIUlhcCJeSoAjKUNwJEdnACUSX/AmJ0kAJvJB8CgHKwAo0iPwAAEAAQABAAEAAQABAAEAAQAAfpABAAAAcIAABENEVABDU1QAAAAAAA==',
-}
+	3. show page: view for tx_id
 
-content_type = content_json["content_type"]
-content_body = base64_decode(content_json["content_body"])
+	for example: 0x2d6a7b0f6adeff38423d4c62cd8b6ccb708ddad85da5d3d06756ad4d8a04a6a2
 
-if $content_type == "text"
-  <textarea>$content_body</textarea>
-else
-  <img src="base64: $content_body" />
+	https://etherscan.io/tx/0x2d6a7b0f6adeff38423d4c62cd8b6ccb708ddad85da5d3d06756ad4d8a04a6a2
+	
+
+	content_json = "09776acdf..."
+	
+	{
+	  content_type: 'text',
+ 	 content_body: 	'VFppZgAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAQAAAAAgAAAAjIXAGAyPoncMnVDoDK21rwHro2AB9pf3AgfmiAIUlhcCJeSoAjKUNwJEdnACUSX/AmJ0kAJvJB8CgHKwAo0iPwAAEAAQABAAEAAQABAAEAAQAAfpABAAAAcIAABENEVABDU1QAAAAAAA==',
+	}
+
+	content_type = content_json["content_type"]
+	content_body = base64_decode(content_json["content_body"])
+
+	if $content_type == "text"
+ 	 <textarea>$content_body</textarea>
+	else
+ 	 <img src="base64: $content_body" />
 
 """
 
