@@ -54,9 +54,12 @@ First Forever - 最初即永恒
 [MockPlus](https://free.modao.cc/app/jQl9OKzlyvPvqvxJSqYUApg3mVwy5GP#screen=s90194FB9B91529933520728 "悬停显示")
 ## refs:
 * IDEAS
-    * (https://hackmd.io/s/H1zFOz1aM "悬停显示")
+    * https://hackmd.io/s/H1zFOz1aM 
     * 微信小程序“Pick你的画”
-
+* DEVS
+    * [Nervos AppChain SDK)](https://cryptape.quip.com/NSfAOAUuOKI "悬停显示")
+    * [开发文档](https://cryptape.github.io/Nervos-AppChain-Docs/#/ "悬停显示")
+    * [示例代码](https://github.com/CryptapeHackathon/Hackthon-web3-neuron-example "悬停显示")
 
 
 
