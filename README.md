@@ -53,9 +53,10 @@ First Forever - 最初即永恒
 ## 原型图：
 [MockPlus](https://free.modao.cc/app/jQl9OKzlyvPvqvxJSqYUApg3mVwy5GP#screen=s90194FB9B91529933520728 "悬停显示")
 ## refs:
-- IDEAS
---
---微信小程序“Pick你的画”
+* IDEAS
+    * (https://hackmd.io/s/H1zFOz1aM "悬停显示")
+    * 微信小程序“Pick你的画”
+
 
 
 
