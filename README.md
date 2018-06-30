@@ -49,9 +49,8 @@ First Forever - 最初即永恒
  	 <img src="base64: $content_body" />
 ```
 ## 项目管理：
-```
-	[Trello board: First Forever(最初即永恒)](https://trello.com/b/knv04a77/first-forever最初即永恒 "悬停显示")
-```
+[Trello board: First Forever(最初即永恒)](https://trello.com/b/knv04a77/first-forever最初即永恒 "悬停显示")
+
 
 
 
