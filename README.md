@@ -50,6 +50,13 @@ First Forever - 最初即永恒
 ```
 ## 项目管理：
 [Trello board: First Forever(最初即永恒)](https://trello.com/b/knv04a77/first-forever最初即永恒 "悬停显示")
+## 原型图：
+[MockPlus](https://free.modao.cc/app/jQl9OKzlyvPvqvxJSqYUApg3mVwy5GP#screen=s90194FB9B91529933520728 "悬停显示")
+## refs:
+- IDEAS
+--
+--微信小程序“Pick你的画”
+
 
 
 
